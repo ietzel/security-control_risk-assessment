@@ -35,6 +35,5 @@
       </cfoutput>
      <cfdump var="#greeting#>
 
-
 <body>
 </html>
