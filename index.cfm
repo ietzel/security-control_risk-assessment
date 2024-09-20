@@ -18,6 +18,60 @@
       System_and_Communications_Protection = ["SYSTEM AND COMMUNICATIONS PROTECTION POLICY AND PROCEDURES", "APPLICATION PARTITIONING", "SECURITY FUNCTION ISOLATION", "INFORMATION IN SHARED RESOURCES", "DENIAL OF SERVICE PROTECTION", "RESOURCE AVAILABILITY", "BOUNDARY PROTECTION", "TRANSMISSION CONFIDENTIALITY AND INTEGRITY", "TRANSMISSION CONFIDENTIALITY", "NETWORK DISCONNECT", "TRUSTED PATH", "CRYPTOGRAPHIC KEY ESTABLISHMENT AND MANAGEMENT", "CRYPTOGRAPHIC PROTECTION", "PUBLIC ACCESS PROTECTIONS", "COLLABORATIVE COMPUTING DEVICES", "TRANSMISSION OF SECURITY ATTRIBUTES", "PUBLIC KEY INFRASTRUCTURE CERTIFICATES", "MOBILE CODE", "VOICE OVER INTERNET PROTOCOL", "SECURE NAME / ADDRESS RESOLUTION SERVICE (AUTHORITATIVE SOURCE)", "SECURE NAME / ADDRESS RESOLUTION SERVICE (RECURSIVE OR CACHING RESOLVER)", "ARCHITECTURE AND PROVISIONING FOR NAME / ADDRESS RESOLUTION SERVICE", "SESSION AUTHENTICITY", "FAIL IN KNOWN STATE", "THIN NODES", "HONEYPOTS", "PLATFORM-INDEPENDENT APPLICATIONS", "PROTECTION OF INFORMATION AT REST", "HETEROGENEITY", "CONCEALMENT AND MISDIRECTION", "COVERT CHANNEL ANALYSIS", "INFORMATION SYSTEM PARTITIONING", "TRANSMISSION PREPARATION INTEGRITY", "NON-MODIFIABLE EXECUTABLE PROGRAMS", "HONEYCLIENTS", "DISTRIBUTED PROCESSING AND STORAGE", "OUT-OF-BAND CHANNELS", "OPERATIONS SECURITY", "PROCESS ISOLATION", "WIRELESS LINK PROTECTION", "PORT AND I/O DEVICE ACCESS", "SENSOR CAPABILITY AND DATA", "USAGE RESTRICTIONS", "DETONATION CHAMBERS"];
       System_and_Information_Integrity = ["SYSTEM AND INFORMATION INTEGRITY POLICY AND PROCEDURES", "FLAW REMEDIATION", "MALICIOUS CODE PROTECTION", "INFORMATION SYSTEM MONITORING", "SECURITY ALERTS, ADVISORIES, AND DIRECTIVES", "SECURITY FUNCTION VERIFICATION", "SOFTWARE, FIRMWARE, AND INFORMATION INTEGRITY", "SPAM PROTECTION", "INFORMATION INPUT RESTRICTIONS", "INFORMATION INPUT VALIDATION", "ERROR HANDLING", "INFORMATION HANDLING AND RETENTION", "PREDICTABLE FAILURE PREVENTION", "NON-PERSISTENCE", "INFORMATION OUTPUT FILTERING", "MEMORY PROTECTION", "FAIL-SAFE PROCEDURES"];
       Program_Management = ["INFORMATION SECURITY PROGRAM PLAN", "SENIOR INFORMATION SECURITY OFFICER", "INFORMATION SECURITY RESOURCES", "PLAN OF ACTION AND MILESTONES PROCESS", "INFORMATION SYSTEM INVENTORY", "INFORMATION SECURITY MEASURES OF PERFORMANCE", "ENTERPRISE ARCHITECTURE", "CRITICAL INFRASTRUCTURE PLAN", "RISK MANAGEMENT STRATEGY", "SECURITY AUTHORIZATION PROCESS", "MISSION/BUSINESS PROCESS DEFINITION", "INSIDER THREAT PROGRAM", "INFORMATION SECURITY WORKFORCE", "TESTING, TRAINING, AND MONITORING", "CONTACTS WITH SECURITY GROUPS AND ASSOCIATIONS"];
+      for (i=0; i <= arrayLen(Access_Control); i++) {
+          writeOutput(Access_Control[i]);
+      }
+      for (i=0; i <= arrayLen(Awareness_and_Training); i++) {
+          writeOutput(Awareness_and_Training[i]);
+      }
+      for (i=0; i <= arrayLen(Audit_and_Accountability); i++) {
+          writeOutput(Audit_and_Accountability[i]);
+      }
+      for (i=0; i <= arrayLen(Security_Assessment_And_Authorization); i++) {
+          writeOutput(Security_Assessment_And_Authorization[i]);
+      }
+      for (i=0; i <= arrayLen(Configuration_Management); i++) {
+          writeOutput(Configuration_Management[i]);
+      }
+      for (i=0; i <= arrayLen(Contingency_Planning); i++) {
+          writeOutput(Contingency_Planning[i]);
+      }
+      for (i=0; i <= arrayLen(Identification_and_Authentication); i++) {
+          writeOutput(Identification_and_Authentication[i]);
+      }
+      for (i=0; i <= arrayLen(Incident_Response); i++) {
+          writeOutput(Incident_Response[i]);
+      }
+      for (i=0; i <= arrayLen(Maintenance); i++) {
+          writeOutput(Maintenance[i]);
+      }
+      for (i=0; i <= arrayLen(Media_Protection); i++) {
+          writeOutput(Media_Protection[i]);
+      }
+      for (i=0; i <= arrayLen(Physical_and_Environmental_Protection); i++) {
+          writeOutput(Physical_and_Environmental_Protection[i]);
+      }
+      for (i=0; i <= arrayLen(Planning); i++) {
+          writeOutput(Planning[i]);
+      }
+      for (i=0; i <= arrayLen(Personnel_Security); i++) {
+          writeOutput(Personnel_Security[i]);
+      }
+      for (i=0; i <= arrayLen(Risk_Assessment); i++) {
+          writeOutput(Risk_Assessment[i]);
+      }
+      for (i=0; i <= arrayLen(System_and_Services_Acquisition); i++) {
+          writeOutput(System_and_Services_Acquisition[i]);
+      }
+      for (i=0; i <= arrayLen(System_and_Communications_Protection); i++) {
+          writeOutput(System_and_Communications_Protection[i]);
+      }
+      for (i=0; i <= arrayLen(System_and_Information_Integrity); i++) {
+          writeOutput(System_and_Information_Integrity[i]);
+      }
+      for (i=0; i <= arrayLen(Program_Management); i++) {
+          writeOutput(Program_Management[i]);
+      }
 </cfscript>
 
 <html>
