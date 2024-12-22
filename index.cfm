@@ -73,21 +73,11 @@
           writeOutput(Program_Management[i]);
       }
 </cfscript>
-
 <html>
-<head>
-</head>
-<body>
-
-      <p>HTML</p>
-            <p>More HTML</p>
-
-            <p>#greeting#</p>
-
-            <p>#ucase(greeting)#</p>
-
-      </cfoutput>
-     <cfdump var="#greeting#>
-
-<body>
+      <head>
+            <title>Security Control Risk Assessment</title>
+      </head>
+      <body>
+           <cfdump var="#greeting#>
+      <body>
 </html>
